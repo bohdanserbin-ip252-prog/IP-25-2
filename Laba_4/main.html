@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="main.css">
+
+<form id="todo-form">
+  <input type="text" id="todo-input" placeholder="Введіть задачу...">
+  <button type="submit">Додати</button>
+</form>
+
+<div class="lists-container">
+  <div class="column">
+    <h3>Активні</h3>
+    <ul id="todo-list"></ul> <!-- Сюди падають нові -->
+  </div>
+  
+  <div class="column">
+    <h3>Виконані</h3>
+    <ul id="completed-list"></ul> <!-- Сюди перелітають виконані -->
+  </div>
+</div>
+
+<ul id="todo-list"></ul>
+
+<!-- Блок лічильника -->
+<div id="counter-box">
+  <p>Кількість кліків: <span id="count-value">0</span></p>
+</div>
+
+<script src="main.js"></script>

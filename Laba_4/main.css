@@ -1,0 +1,19 @@
+.lists-container {
+  display: flex;
+  gap: 20px; /* Відступ між колонками */
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1; /* Колонки будуть однакової ширини */
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  min-height: 200px;
+}
+
+.completed {
+  /* text-decoration: line-through;  <-- ВИДАЛИ ЦЕ */
+  color: #333; /* Можна лишити звичайний колір */
+  opacity: 1;   /* Повертаємо повну видимість */
+}
